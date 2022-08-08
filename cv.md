@@ -7,5 +7,5 @@
 *Education:* 
 - master's degrees in economics; 
 - Python Programming Basics
-- Intensive HTML and CSS courses from WebJunior;
+- Intensive HTML and CSS courses from WebJunior;\
 *English language:* I have a B2 English proficiency certifier.
