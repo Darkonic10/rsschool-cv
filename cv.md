@@ -1,4 +1,4 @@
-![My photo](img/photo.jpeg)\
+![My photo](assets/img/photo.jpeg)\
 **Dmitriy Tiunov**\
 *Contacts:* +79194945060; Discord(rsschool): Dmitry Tiunov (@Darkonic10)\
 *About:* I completed my bachelor's and master's degrees with honors in economics. In recent years, I have worked in a different specialty. There is no experience in this specialty, but this direction is very attractive. Ready to learn new things with interest and overcome difficulties to achieve results.\
