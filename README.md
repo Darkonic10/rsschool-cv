@@ -1,2 +1,2 @@
-https://Darkonic10.github.io/rsschool-cv/cv
-https://Darkonic10.github.io/rsschool-cv/
+https://darkonic10.github.io/rsschool-cv/cv
+https://darkonic10.github.io/rsschool-cv/
