@@ -2,7 +2,7 @@
     <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X=UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="assets/img/favicon.ico">
@@ -60,11 +60,24 @@
                 </section>
                 <section class="section" id="code">
                     <h2 class="section-title">Code</h2>
-                    <code>
-                        function multiply(a, b){<br>
-                        a * b<br>
-                      }<br>
-                      </code>
+                    <pre><code>
+function dataReverse(data) {
+  const bytes = [];
+  let reversedBytes = []
+
+  for (let i = 0; i < data.length; i += 8) {
+    const byte = data.slice(i, i + 8);
+    bytes.push(byte);
+  }
+
+  for (let i = bytes.length - 1; i >= 0; i--) {
+    reversedBytes.push(bytes[i]);
+  }
+
+  const result = reversedBytes.flat()
+  return result;
+}
+                    </code></pre>
                 </section>
                 <section class="section" id="project">
                     <h2 class="section-title">Projects</h2>
@@ -79,6 +92,7 @@
                     <ul>
                         <li>Network IT University - <span class="selection">Python Programming Basics</span></li>
                         <li>WebJunior - <span class="selection">Intensive HTML and CSS</span></li>
+                        <li>RS SCHOOL - <span class="selection">Front-end pre-school stage 0 (Partial self-study)</span></li>
                     </ul>
                 </section>
                 <section class="section" id="english">

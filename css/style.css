@@ -24,6 +24,7 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     min-height: 50px;
+    padding: 0 20px;
 }
 
 .header{
@@ -69,8 +70,8 @@ a:hover{
 }
 
 .main-title{
-    font-size: 24;
-    color: #faf603
+    font-size: 24px;
+    color: #d43434
 }
 
 .section-about{
@@ -88,6 +89,10 @@ a:hover{
     text-align: center;
     align-content: center;
     text-transform: uppercase
+}
+
+.section-about-photo{
+    border-radius: 50%;
 }
 
 .selection{
