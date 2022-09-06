@@ -1,113 +1,14 @@
-<!DOCTYPE HTML>
-    <html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="assets/img/favicon.ico">
-        <link rel="preconnect" href="https://fonts.gstatic.com">  
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-        <title>cv</title>
-    </head>
-    <body>
-        <header class="header">
-            <div class="wrapper">
-                <nav>
-                    <ul class="navlist">
-                        <li><a href="#contacts">Contacts</a></li>
-                        <li><a href="#summary">Summary</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#code">Code</a></li>
-                        <li><a href="#project">Projects</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#english">English</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="main" >
-            <div class="wrapper main-wrapper">
-                <section class="section section-about">
-                    <div class="section-about-title">
-                        <h1 class="section-title main-title">Dmitriy Tiunov</h1>
-                        <p>Junior front-end developer</p>
-                    </div>
-                    <img class= "section-about-photo" src="assets/img/photo.jpeg" alt="photo">
-                </section>
-                <section class="section" id="contacts">
-                    <h2 class="section-title">Contacts</h2>
-                    <ul>
-                        <li>Perm', Russia</li>
-                        <li>E-mail: <a href="mailto:tiynov2@mail.ru">tiynov2@mail.ru</a></li>
-                        <li>Github: <a href="https://github.com/Darkonic10">Darkonic10</a></li>
-                        <li>Discord: Darko#7387</li>
-                    </ul>
-                </section>
-                <section class="section" id="summary">
-                    <h2 class="section-title">Summary</h2>
-                    <p>I completed my bachelor’s and master’s degrees with honors in economics. In recent years, I have worked in a different specialty. There is no experience in this specialty, but this direction is very attractive. Ready to learn new things with interest and overcome difficulties to achieve results.</p>
-                </section>
-                <section class="section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-                    <ul>
-                        <li>Web-development: HTML5, CSS3</li>
-                        <li>Version Control: GIT, Github</li>
-                        <li>Programming languages: JavaScript, Python</li>
-                    </ul>
-                </section>
-                <section class="section" id="code">
-                    <h2 class="section-title">Code</h2>
-                    <pre><code>
-function dataReverse(data) {
-  const bytes = [];
-  let reversedBytes = []
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
 
-  for (let i = 0; i &lt; data.length; i += 8) {
-    const byte = data.slice(i, i + 8);
-    bytes.push(byte);
-  }
-
-  for (let i = bytes.length - 1; i &gt;&equals; 0; i--) {
-    reversedBytes.push(bytes[i]);
-  }
-
-  const result = reversedBytes.flat()
-  return result;
-}
-                    </code></pre>
-                </section>
-                <section class="section" id="project">
-                    <h2 class="section-title">Projects</h2>
-                    <a href="https://Darkonic10.github.io/rsschool-cv/cv">CV</a>
-                </section>
-                <section class="section" id="education">
-                    <h2 class="section-title">Education</h2>
-                    <p>Perm National Research Polytechnic University</p>
-                </section>
-                <section class ="section" id="courses">
-                    <h2 class="section-title">Courses</h2>
-                    <ul>
-                        <li>Network IT University - <span class="selection">Python Programming Basics</span></li>
-                        <li>WebJunior - <span class="selection">Intensive HTML and CSS</span></li>
-                        <li>RS SCHOOL - <span class="selection">Front-end pre-school stage 0 (Partial self-study)</span></li>
-                    </ul>
-                </section>
-                <section class="section" id="english">
-                    <h2 class="section-title">English</h2>
-                    <p>B2 - Intermediate</p>
-                </section>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="wrapper footer-wrapper">
-                <div>
-                    &copy; 2022
-                    <a href="https://github.com/Darkonic10">Darkonic10</a>
-                </div>
-                <a class="rss" href="https://rs.school/index.html"></a>
-            </div>
-        </footer>
-    </body>
-    </html>
+</body>
+</html>
